@@ -43,7 +43,7 @@ export const db = getFirestore(app);
      vẫn chạy bình thường (Firestore sẽ chỉ thực sự chặn khi bạn
      bật "Enforce" trong Firebase Console, xem README).
 ===================================================== */
-const RECAPTCHA_V3_SITE_KEY = 'DÁN_RECAPTCHA_V3_SITE_KEY_VÀO_ĐÂY';
+const RECAPTCHA_V3_SITE_KEY = '6LcMZMMtAAAAACYP6K9DfhN0yltRHasxVj_aOeMT';
 
 if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
   // Chỉ bật debug token khi chạy local — TUYỆT ĐỐI không để dòng này
